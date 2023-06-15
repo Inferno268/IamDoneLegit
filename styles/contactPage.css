@@ -1,0 +1,8 @@
+
+.bg-image{
+    background-image: url('../Images/bgContact.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+    

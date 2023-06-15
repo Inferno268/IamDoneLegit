@@ -1,0 +1,48 @@
+
+.bg-image{
+background-image: url('../Images/bgHomepage.jpg');
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.show {
+    display: block !important;
+  }
+  @media (min-width: 768px) {
+    .header-navbar-nav a {
+      transition: ease-out 0.25s;
+    }
+  .header-navbar-nav a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  .header-navbar-nav a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #0ba1a6;
+    transition: width 0.25s ease-in-out, left 0.25s ease-in-out;
+  }
+
+  .header-navbar-nav a:hover:before { 
+    width: 100%;
+    left: 0;
+  }
+
+  .header-navbar-nav a:hover {
+    color: #0acb91;
+    transition: color 0.25s ease-out;
+  }
+
+  .header-navbar-nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/homePage.css">
+    <script src="..//js/global.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
+            <div class="container m-0 flex justify-content-space-between">
+              <a class="navbar-brand" href="homePage.html">SipSupreme</a>
+          
+              <button
+                class="navbar-toggler float-right"
+                type="button"
+                aria-controls="navbarNav"
+                aria-expanded="{isMenuOpen}"
+                aria-label="Toggle navigation"
+                onclick="toggleMenu()"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto header-navbar-nav" id="navbarNav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="homePage.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="menuPage.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutPage.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactPage.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../php/login.php">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+  
+    <div class="bg-image">
+        <div class="mask" style="background-color: rgba(0,0,0,0.4);">
+            <div class="content vh-100 d-flex justify-content-center align-items-center">
+                <a href="menuPage.html">
+                    <button class="btn btn-outline-dark btn-lg border border-3 border-dark px-5 py-2">
+                        <span class="text-warning fs-3">Explore</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center align-items-center">
+                <a href="https://github.com/Inferno268/WaFinalProject" target="_blank">
+                    <img src="../Images/githubLogo.png" alt="github-logo" width="22rem" class="me-2">
+                </a>
+                <p class="m-0">Created by Ruthless</p>
+            </div>
+            <p class="m-0 copyright ps-2 text-center">
+                &copy; Copyright 2023
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
